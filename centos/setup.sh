@@ -35,4 +35,6 @@ git clone --depth 50 https://github.com/ansible/awx.git
 cd awx/installer/
 ansible-playbook -i inventory install.yml
 
+nice -n 19 dd if=/dev/zero of=/mnt/file.swap bs=6M count=1000;mkswap /mnt/file.swap;chmod 0600 /mnt/file.swap;swapon /mnt/file.swap;free -m
+
 echo "DONE"

@@ -10,7 +10,7 @@ Azure VM
 ----
 ### OS
 
-- Ubuntu 17.10
+- CentOS 7.4
 
 ### Installed software
 
